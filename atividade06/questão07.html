@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao07</title>
+</head>
+<body>
+    <script>
+    let num = parseInt(prompt("Digite um número (0 para sair): "));
+    let max = num;
+    let min = num;
+
+    while (num != 0) {
+    if (num > max) {
+        max = num;
+    }
+    if (num < min) {
+        min = num;
+    }
+    num = parseInt(prompt("Digite um número (0 para sair): "));
+    }
+    alert("O maior número é: " + max);
+    alert("O menor número é: " + min);
+
+    </script>
+</body>
+</html>

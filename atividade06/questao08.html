@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao08</title>
+</head>
+<body>
+    <script>
+    let frase = prompt("Digite uma frase: ");
+    let vogais = ['a', 'e', 'i', 'o', 'u'];
+    let cont = 0;
+    for (let i = 0; i < frase.length; i++) {
+    if (vogais.includes(frase[i].toLowerCase())) {
+        cont++;
+    }
+}
+    alert("A quantidade de vogais na frase é: " + cont);
+        
+    //let frase = prompt("Digite uma frase: ");
+    //let cont = frase.match(/[aeiou]/gi).length;
+    //alert("A quantidade de vogais na frase é: " + cont);
+    </script>
+</body>
+</html>

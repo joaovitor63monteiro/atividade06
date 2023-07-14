@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão03</title>
+</head>
+<body>
+    <script>
+    let idade1 = prompt("Digite a idade da primeira pessoa: ");
+    let idade2 = prompt("Digite a idade da segunda pessoa: ");
+    let idade3 = prompt("Digite a idade da terceira pessoa: ");
+
+    idade1 = parseInt(idade1);
+    idade2 = parseInt(idade2);
+    idade3 = parseInt(idade3);
+
+    if (idade1 >= 18 || idade2 >= 18 || idade3 >= 18) {
+    if (idade1 >= 18 && idade2 >= 18 && idade3 >= 18) {
+        alert("Todas as pessoas são maiores de idade.");
+    } else {
+        alert("Alguma das pessoas é maior de idade.");
+    }
+}   else {
+    alert("Todas as pessoas são menores de idade.");
+}
+    </script>
+</body>
+</html>
